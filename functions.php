@@ -29,12 +29,6 @@ genesis_unregister_layout( 'sidebar-content-sidebar' );
 genesis_unregister_layout( 'full-width' );
 
 add_filter( 'genesis_pre_get_option_site_layout', 'child_do_layout' );
-/**
- * Force layout
- *
- * @author Greg Rickaby
- * @since 1.0.0
- */
 function child_do_layout( $opt ) {
     $opt = 'full-width-content'; // You can change this to any Genesis layout
     return $opt;
