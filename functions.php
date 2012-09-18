@@ -3,11 +3,9 @@
 require_once( get_template_directory() . '/lib/init.php' );
 
 /** Child theme (do not remove) */
-define( 'CHILD_THEME_NAME', 'AboutMe Child Theme' );
-define( 'CHILD_THEME_URL', 'http://iampuneet.com/themes/about-me/' );
+define( 'CHILD_THEME_NAME', 'DarkNight Child Theme' );
+define( 'CHILD_THEME_URL', 'http://iampuneet.com/themes/dark-night/' );
 
-/** child theme layout and other functions */
-require_once('lib/child-functions.php');
 
 /** Add Viewport meta tag for mobile browsers */
 add_action( 'genesis_meta', 'add_viewport_meta_tag' );
